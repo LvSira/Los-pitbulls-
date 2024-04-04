@@ -15,12 +15,14 @@
     color: #fff;
   }
   nav ul{
-    list-style: none;
+    list-style: symbols(square);
+    display: flex;
+    justify-content: space-around;
     padding: 0;
     margin: 0;
   }
   nav ul li a{
-    color: #fff;
+    color: #7ecbff;
     text-decoration: none;
   }
   main{
@@ -42,7 +44,9 @@
 
   }
   h2{
-    color: #333;
+    color: #089fe6;
+    
+    
   }
   ul{
     padding-left: 20px;
@@ -51,9 +55,14 @@
     font-style: normal;
   }
   a{
-    color: #007bff;
+    color: #5b65f3;
     text-decoration: none;
   }
   a:hover{
     text-decoration: underline;
   }
+  #mi-hijo{
+    color: #023838;
+    border-color: #333;
+  }
+  
